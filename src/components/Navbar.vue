@@ -1,17 +1,17 @@
 <template>
     <div class="flex justify-center">
-        <div class="p-4 bg-gray-100 w-[80%]">
-            <div class="justify-between flex">
-                <div class="flex">
-                    <img src="./../assets/icons/logo.svg" alt="" width="30">
-                    <p>To-Do List</p>
+        <div class="p-2 bg-gray-400 w-[80%]">
+            <div class="justify-between flex items-center">
+                <div class="flex items-center">
+                    <img src="./../assets/icons/icons.png" alt="" width="40">
+                    <p class="font-bold">To-Do List</p>
                 </div>
-                <div class="flex gap-4">
+                <div class="flex gap-4 font-semibold">
                     <span>
                         <RouterLink to="/">
                             Home
                         </RouterLink>
-                       
+
                     </span>
                     <span>
                         <RouterLink to="/about">
@@ -28,6 +28,4 @@
 
 </script>
 
-<style lang="scss" scoped>
-
-</style>
+<style lang="scss" scoped></style>
